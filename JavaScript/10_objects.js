@@ -31,9 +31,40 @@ empInfo.message = function(){
 empInfo.messageNew = function(){
     console.log(`hello Js user, ${this["full name"]}`)
 }
-console.log(empInfo.message);
-console.log(empInfo.message());
-console.log(empInfo.messageNew());
+// console.log(empInfo.message);
+// console.log(empInfo.message());
+// console.log(empInfo.messageNew());
+
+
+// Destructuring in objects
+
+const player = {
+    playerName: "virat",
+    playerAge: 30,
+    highestScore: "110*"
+}
+
+// console.log(player);
+// console.log(player.highestScore);
+
+const {highestScore} = player // destructuring
+
+console.log(highestScore)
+
+// JSON API Intro
+
+// {
+//     "name": "testUser",
+//     "age": "18",
+//     "address": "Bangalore"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
 
 
 
