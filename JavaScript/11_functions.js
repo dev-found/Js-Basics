@@ -28,10 +28,25 @@ function loginUserMessage(name){
     }
     return `${name} just logged in`
 }
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
 
+function calculateCartPrice(val1, ...num1){  //(... => rest operator)
+    return num1  
+}
+// console.log(calculateCartPrice(2,4,6,8)) // rest operator gives output in array structure
 
+// handling object in functions
 
+const player = {
+    playerName: "The Rock",
+    title: "Heavy Weight"
+}
+
+function handleObject(anyobject){
+    console.log(`player name is ${anyobject.playerName} and his title is ${anyobject.title}`);
+    
+}
+handleObject(player)
 
 
 
