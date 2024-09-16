@@ -101,3 +101,4 @@ const playerName = "Rohit";
 playerName === "Virat" ? console.log("player name is true") : console.log("player name is false")
 
 
+ 
